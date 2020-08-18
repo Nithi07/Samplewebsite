@@ -1,0 +1,72 @@
+<style>
+  body {font-family: "Lato", sans-serif; }
+  .logo-box{
+    padding-left: 58px;
+  }
+  .nav-bar {
+    width:88%;float:right;top:40px;background-color:rgb(149, 198, 207);
+  }
+  .row::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column{
+    float: left;
+  }
+  .whitefont {
+    color: white;
+  }
+  .homepage {vertical-align: middle;padding-left:230px;color:rgb(1,108,112)}
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+    }
+  .bg-2 {
+      color: white;
+      background-color: rgb(1,108,112); /* Green with blue(rgb) */
+    }
+  .bg-3 {
+      background-color:rgb(233, 239, 240); /* Gray */
+    }
+  h1.fontsize{
+    font-size:350%;
+  }
+  .container-fluid1 {
+      height: 100vh;
+      padding-top: 165px;
+      padding-left: 250px;
+    }
+  .container2 {
+      height: 100vh;
+      background-color:rgb(1,108,112);
+      padding-top: 20px;
+    }
+
+  .container3 {
+    position: relative;
+    padding-top: 70px;
+    height: 100vh;
+    width: 100%;
+    color:rgb(1,108,112);
+  }
+  .container3::after {        /*background opacity don't affect text*/
+      content: '';
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100vh;
+      z-index: -1;
+      opacity: 0.2;
+      background-image: url("D:/Nithi/Django/Task/Website/Website/sample/image/Yoga bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color:rgb(233, 239, 240);
+
+      /* background-position: center; */
+    }
+  .yoga-column {
+    padding-top: 30px;
+  }
+</style>
